@@ -9,7 +9,7 @@ do {
     Write-Host "4. Ejecutar Calculadora" -ForegroundColor Green
     Write-Host "5. Salir" -ForegroundColor Red
     Write-Host "================================" -ForegroundColor Cyan    
-    $opcion = Read-Host "Elige opción (1-5)"    
+    $opcion = Read-Host "Elige opcion (1-5)"    
     switch ($opcion) {
         "1" {
             Clear-Host
@@ -39,7 +39,7 @@ do {
             exit
         }
         default {
-            Write-Host "Opción inválida. Intenta de nuevo." -ForegroundColor Red
+            Write-Host "Opcion invalida. Intenta de nuevo." -ForegroundColor Red
             Start-Sleep 2
         }
     }
