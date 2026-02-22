@@ -40,7 +40,7 @@ do {
         }
         default {
             Write-Host "Opcion invalida. Intenta de nuevo." -ForegroundColor Red
-            Start-Sleep 2
+            Start-Sleep 5
         }
     }
 } while ($opcion -ne "5")
